@@ -1,0 +1,7 @@
+---
+description: Project structure rules
+globs: 
+alwaysApply: true
+---
+
+- the reference PDF in English is the file /EN/d2l-en.pdf

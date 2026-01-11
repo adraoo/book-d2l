@@ -1,0 +1,12 @@
+---
+description: List of general preferences
+globs:
+alwaysApply: true
+---
+
+# Rules
+- Use formal address when speaking to the user.
+- Always propose a commit message in english when the requested task is done.
+- When staging, only stage the files you modified. Ignore any other files that were modified or created by somebody else.
+- never use the "auto" LLM model: always stick to the last selected LLM model
+- Never Commit unless the user requested so

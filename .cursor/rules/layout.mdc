@@ -1,0 +1,20 @@
+---
+description: List of preferences related to the layout
+alwaysApply: true
+---
+
+# RULE — Preserve Layout of Existing Files
+
+When editing an **existing** file, follow these strict guidelines:
+
+- **Do not** change indentation (width, tabs vs. spaces) or alignment.
+- Do not rewrap lines, move braces/parentheses/comments, or "clean up" formatting.
+- Do not add, remove, or reorder **any** blank lines.
+- **Do not** run any global formatter (Prettier, Black, gofmt, rustfmt, `eslint --fix`, etc.) on the entire file.
+- Keep the diff **as minimal as possible** — changes consisting only of whitespace or line breaks are **forbidden**.
+- When inserting new content, **match the existing local style exactly** (indentation and spacing) **without** reformatting surrounding content.
+- If a request requires reformatting, **pause and ask explicitly for permission** before applying any style changes.
+
+**Acceptance criteria**:
+- The diff contains **no whitespace-only changes**.
+- Unmodified blocks keep their indentation, spacing, blank lines, and comments **exactly as they were**.

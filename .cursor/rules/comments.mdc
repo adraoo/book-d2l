@@ -1,0 +1,12 @@
+---
+description: Rules about code comments
+globs: 
+alwaysApply: true
+---
+
+# Rules
+
+- Do not remove any comment, unless they become false or deprecated, or when the user explicitly requests it
+- if you add some comment, make it short
+- if you add some comment, always add them in english, including in migrations and prisma schema
+- whenever you create a file, add as a header some documentation in english to explain its goal
